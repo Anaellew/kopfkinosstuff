@@ -29,6 +29,7 @@ nav ul li a {
 
 main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
     text-align: center;
     padding: 2rem;
 }

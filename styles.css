@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(LibreBaskervill-Regular.ttf) format('ttf');
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;

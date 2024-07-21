@@ -3,7 +3,7 @@
     src: url(LibreBaskervill-Regular.ttf) format('ttf');
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'MyFont';
     margin: 0;
     padding: 0;
     background-color: #e564e0; /* Couleur de fond rose */
@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 main {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'MyFont;
     font-size: large;
     text-align: center;
     padding: 2rem;

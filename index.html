@@ -7,14 +7,14 @@
      <style>
         body {
             font-size: 16px; 
+            font-family: 'MyFont';
         }
         h1 {
             padding-top: 100px;
-            font-size: 3cm;
-            font-family: 'MyFont';
+            font-size: 4cm;
         }
         h2 {
-            font-size: 0.7cm;
+            font-size: 1cm;
         }
     </style>
     <link rel="stylesheet" href="styles.css">
@@ -23,6 +23,13 @@
     <main>
         <h1>Molard Club</h1>
         <h2>Webzine pour tous·tes les enragé·es</h2>
+         <div class="box" onclick="changeColor(this)"></div>
+
+    <script>
+        function changeColor(element) {
+            element.style.backgroundColor = element.style.backgroundColor === 'lightblue' ? 'lightcoral' : 'lightblue';
+        }
+    </script>
     </main>
     <footer>
         <p>&copy; 2024 Molard Club</p>

@@ -27,9 +27,7 @@
         }
         .columns {
             display: grid;
-            grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
-            height: 50%; /* Hauteur pour les colonnes */
-            overflow: hidden; /* Empêche le défilement si le contenu dépasse */
+            grid-template-columns: 1fr 1fr;
         }
         .column {
             display: flex;
@@ -39,7 +37,7 @@
             box-sizing: border-box;
         }
         .left {
-            background-color: #e0e0e0;
+            font-family: 'MyFont';
         }
         .right {
             background-color: #c0c0c0;
@@ -54,13 +52,22 @@
     <div class="spacer"></div>
        <div class="columns">
         <div class="column left">
+            <h2>Molard Club</h2>
             <p>Colonne Gauche</p>
         </div>
         <div class="column right">
-            <p>Colonne Droite</p>
+            <p>Molard club est un WebZine pour toustes les enragées qui du fond de leurs poumons, ont des choses à cracher.
+
+Ecrire, dessiner, réciter, filmer nos histoires et les partager, c'est l'objectif. Nous voulons créer un récit qui nous ressemble, loin du capitalisme patriarcal et de l'hétéronormativité cisgenre.
+
+On crache à la gueule des grands de ce monde, ici on crée pour ceux qui ne sont rien et qui aiment ça.
+
+​
+
+Bienvenue au MOLARD Club !</p>
         </div>
     </div>
-    <div class="image"></div>
+    <div class="spacer"></div>
     </main>
     <script src="document.js"></script>
 </body>

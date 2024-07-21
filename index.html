@@ -23,10 +23,18 @@
          .spacer {
             height: 500px;
         }
-         .content {
-            font-family: 'MyFont'; 
-             padding-bottom: 50px;
-         }
+        .content, .image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .image {
+            background-image: url('https://via.placeholder.com/800'); /* URL de l'image de fond */
+            background-size: cover;
+            background-position: center;
+        }
     </style>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -47,6 +55,7 @@ On crache à la gueule des grands de ce monde, ici on crée pour ceux qui ne son
 
 Bienvenue au MOLARD Club !</p>
     </div>
+    <div class="image"></div>
     </main>
     <script src="document.js"></script>
 </body>

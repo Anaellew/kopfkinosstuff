@@ -23,8 +23,12 @@
             font-family: 'MyFont';
             margin-bottom: 20px;
         }
-        a {
-            display: inline-block;
+        ul {
+            padding: 0; /* Enlever les marges internes */
+            margin: 0; /* Enlever les marges externes */
+            display: flex; /* Aligner les éléments horizontalement */
+        }
+        li {
             margin-right: 10px; /* Espace entre les liens */
         }
          .spacer {
@@ -75,8 +79,10 @@ On crache à la gueule des grands de ce monde, ici on crée pour ceux qui ne son
             <p>Bienvenue au MOLARD Club !</p>
         </div>
         <div class="column right">
-            <a href="publications.html"> Nos publications </a>
-            <a href="a_propos.html"> Qui sommes-nous ? </a>
+        <ul>
+            <li><a href="publications.html">Nos publications</a></li>
+            <li><a href="a_propos.html">Qui sommes-nous ?</a></li>
+        </ul>
             <div class="petitspace"></div>
             <img src="accueil.png" width="800">
         </div>

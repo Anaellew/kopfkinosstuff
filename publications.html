@@ -5,71 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nos publications</title>
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'MyFont';
+        }
         h1 {
             font-family: 'MyFont';
             font-size: 5em;
             margin-bottom: 0em;
+            text-align: center;
         }
         .columns {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1em;
+            padding: 1em;
         }
         .column {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 1em;
+            align-items: center;
+            padding: 0.5em;
             box-sizing: border-box;
         }
-        .left {
+        .left, .center, .right {
             font-family: 'MyFont';
-            padding: 0em;
-            align-items: right;
         }
-        .center {
-            font-family: 'MyFont';
-            padding: 0em;
-        }
-        .right {
-           font-family: 'MyFont';
-            padding: 0em;
-            align-items: left;
-        }
-        .spacer{
+        .spacer {
             height: 25em;
         }
-        .moyenspace{
+        .moyenspace {
             height: 5em;
         }
         @media (max-width: 768px) {
             h1 {
                 font-size: 3em;
-                margin-botton: 1.5em;
-            }
-            h2 {
-                font-size: 1.7em;
+                margin-bottom: 1.5em;
             }
             .columns {
                 grid-template-columns: 1fr;
+                gap: 1.5em;
             }
-            .left{
+            .column {
                 margin: 0;
-                font-size: 1em;
-            }
-            .center {
-                margin: 0;
-            }
-            .right {
-                margin: 0;
+                padding: 0;
             }
             .spacer {
                 height: 12em;
             }
             .moyenspace {
                 height: 1.5em;
-            }
-            a {
-                font-size: 1em;
             }
             img {
                 width: 100%;
@@ -84,20 +71,17 @@
     <h1>Nos Publications</h1>
     <div class="columns">
         <div class="column left">
-          <img src="r&l.png" height="500">
+            <img src="r&l.png" alt="Image de gauche" height="500">
         </div>
-        <div class="column center"> 
-            <img src="c.png" height="500">
+        <div class="column center">
+            <img src="c.png" alt="Image du centre" height="500">
         </div>
         <div class="column right">
-            <img src="r&l.png" height="500">
-            /*<div class="container">*/
-               /*<a href="publications.html">Nos publications</a>*/
-            /*</div>*/
+            <img src="r&l.png" alt="Image de droite" height="500">
         </div>
     </div>
     <div class="moyenspace"></div>
-    <footer> &copy; 2024 Molard Club </footer>
+    <footer>&copy; 2024 Molard Club</footer>
     <script src="document.js"></script>
 </main>
 </body>

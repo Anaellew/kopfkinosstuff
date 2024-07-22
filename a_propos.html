@@ -16,6 +16,7 @@
             font-family: 'MyFont';
             font-size: 8em;
             margin-bottom: 1em;
+            text-align: left;
         }
         h2 {
             margin-top: 0;
@@ -51,7 +52,7 @@
         }
         .columns {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1.3fr 0.7fr;
         }
         .column {
             display: flex;
@@ -99,6 +100,9 @@
             .moyenspace {
                 height: 1.5em;
             }
+            .petitspace {
+                height: 0.4em;
+            }
             a {
                 font-size: 1em;
             }
@@ -112,12 +116,19 @@
 </head>
 <body>
     <main>
+        <h1>Qui sommes-nous ?</h1>
         <div class="columns">
             <div class="column left">
-                <p>YOY</p>
+                <img src="qui" width="800">
             </div>
             <div class="column right">
-                <img src="" width="800">
+                <p>Nous sommes une bande d'ami·es, nous étions à la recherche d'une plateforme pour acceuillir nos travaux artistiques. à défaut d'en trouver une, nous l'avons créée.
+
+Nous voulons être libres au sein d'une communauté de création qui nous ressemble.
+
+Nous sommes artistes, poéte·sses, auteur·ices, photographes et tant d'autres choses.</p>
+                <div class="petitspace"></div>
+                <p>Vous êtes tous·tes les bienvenu.es</p>
             </div>
         </div>
     </main>

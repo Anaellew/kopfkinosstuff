@@ -4,10 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qui sommes-nous ?</title>
+    <style>
+        body {
+            font-size: 1em; 
+            font-family: 'MyFont';
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            padding-top: 1em;
+            font-family: 'MyFont';
+            font-size: 8em;
+            margin-bottom: 1em;
+        }
+        h2 {
+            margin-top: 0;
+            font-size: 3em;
+            font-family: 'MyFont';
+            margin-bottom: 0.7em;
+        }
+        ul {
+            list-style: none;
+            padding: 0; 
+            margin: 0; 
+            display: flex; 
+        }
+        li {
+            margin-right: 2em; 
+        }
+        .container{
+            display: flex; 
+            justify-content: flex-end;
+        }
+        a {
+            color: black;
+            font-size: 1.5em;
+        }
+        .spacer {
+            height: 23em;
+        }
+        .moyenspace {
+            height: 4em;
+        }
+        .petitspace {
+            height: 2em;
+        }
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1em;
+            box-sizing: border-box;
+        }
+        .left {
+            margin-right: 2em;
+            margin-left: 2em;
+            font-family: 'MyFont';
+            font-size: 1.5em;
+        }
+        .left h2{
+            font size: 2em;
+        }
+        .right {
+           font-family: 'MyFont';
+            margin-left: 0;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 4em;
+            }
+            h2 {
+                font-size: 1.7em;
+            }
+            .columns {
+                grid-template-columns: 1fr;
+            }
+            .left{
+                margin: 0;
+                padding: 1em;
+                font-size: 1em;
+            }
+            .right {
+                margin: 0;
+                padding: 1em;
+            }
+            .spacer {
+                height: 12em;
+            }
+            .moyenspace {
+                height: 1.5em;
+            }
+            a {
+                font-size: 1em;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
+        <div class="columns">
+            <div class="column left">
+                <p>YOY</p>
+            </div>
+            <div class="column right">
+                <p>YOYO</p>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 Mon Site Web</p>

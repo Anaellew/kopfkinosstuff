@@ -57,9 +57,6 @@ footer {
     h1 {
         font-size: 4em;
     }
-    h2 {
-        font-size: 1.7em;
-    }
     .columns {
         grid-template-columns: 1fr;
     }

@@ -1,4 +1,4 @@
- body {
+body {
     margin: 0;
     padding: 0;
     background-color: #FF66C4; 
@@ -50,5 +50,11 @@ h1 {
     }
 }
 footer {
- text-align: center;
+    background-color: #FF66C4; 
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

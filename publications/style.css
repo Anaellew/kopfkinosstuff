@@ -24,12 +24,6 @@ h1 {
     padding: 0em;
     box-sizing: border-box;
 }
-.left, .center, .right {
-    font-family: 'MyFont';
-}
-.spacer {
-    height: 25em;
-}
 .moyenspace {
     height: 3em;
 }
@@ -46,9 +40,6 @@ h1 {
     .column {
         margin: 0;
         padding: 0;
-    }
-    .spacer {
-        height: 12em;
     }
     .moyenspace {
         height: 1.5em;

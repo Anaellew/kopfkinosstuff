@@ -30,15 +30,15 @@ h1 {
     padding-left: 10em;
 }
 .right {
-   font-family: 'MyFont';
+    font-family: 'MyFont';
     font-size: 1.6em;
     padding-right: 6em;
     margin-left: 1em;
     margin-right: 2.5em;
+    text-align: center;
 }
 p {
     margin: 0em;
-    text-elign: center;
 }
 footer {
     background-color: #FF66C4; 

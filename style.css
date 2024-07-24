@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MyFont';
-    src: url("LibreBaskerville-Regular.ttf") format('truetype');
+    src: url('LibreBaskerville-Regular.ttf') format('truetype');
 }
 body {
     font-size: 1em; 
@@ -31,8 +31,8 @@ ul {
     display: flex; 
 }
 li {
-    margin-right: 4em; 
-    margin-left: 4em;
+    margin-right: 5em; 
+    margin-left: 5em;
 }
 .container{
     display: flex; 
@@ -46,7 +46,7 @@ a {
     height: 22em;
 }
 .moyenspace {
-    height: 6em;
+    height: 7em;
 }
 .petitspace {
     height: 2em;

@@ -38,6 +38,7 @@ h1 {
 }
 p {
     margin: 0em;
+    text-elign: center;
 }
 footer {
     background-color: #FF66C4; 

@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'MyFont';
     background-color: #FF66C4; 
+    align-items: center;
 }
 h1 {
     font-family: 'MyFont';

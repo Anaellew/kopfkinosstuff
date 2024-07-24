@@ -3,6 +3,7 @@ body {
     font-family: 'MyFont';
     display: flex;
     flex-direction: column;
+    background-color: #FF66C4; 
 }
 h1 {
     font-size: 5.5em;

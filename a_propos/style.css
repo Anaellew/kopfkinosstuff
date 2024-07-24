@@ -38,6 +38,15 @@ h1 {
 p {
     margin: 0em;
 }
+footer {
+    background-color: #FF66C4; 
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 @media (max-width: 768px) {
     h1 {
         font-size: 4em;

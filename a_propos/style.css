@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FF66C4; 
+    font-family: 'MyFont';
 }
 h1 {
     font-size: 5.5em;

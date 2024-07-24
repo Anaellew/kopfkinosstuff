@@ -18,6 +18,7 @@ h1 {
 .columns {
     display: grid;
     grid-template-columns: 1.15fr 0.85fr;
+    text-align: center;
 }
 .column {
     display: flex;
@@ -25,6 +26,7 @@ h1 {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    text-align: center;
 }
 .left {
     margin-right: 0em;
@@ -36,9 +38,11 @@ h1 {
     padding-right: 6em;
     margin-left: 1em;
     margin-right: 2.5em;
+    text-align: center;
 }
 p {
     margin: 0em;
+    text-align: center;
 }
 footer {
     background-color: #FF66C4; 

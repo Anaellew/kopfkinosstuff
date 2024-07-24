@@ -1,9 +1,7 @@
  body {
     margin: 0;
     padding: 0;
-    font-family: 'MyFont';
     background-color: #FF66C4; 
-    align-items: center;
 }
 h1 {
     font-family: 'MyFont';
@@ -16,6 +14,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 400px);
     gap: 0em;
+    padding-left: 12em;
 }
 .column {
     display: flex;

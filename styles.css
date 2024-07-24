@@ -2,7 +2,7 @@
     font-family: 'MyFont';
     src: url(LibreBaskervill-Regular.ttf) format('truetype');
 }
-main {
+body {
     font-size: 1em; 
     font-family: 'MyFont';
     display: flex;

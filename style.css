@@ -7,7 +7,6 @@ body {
     font-family: 'MyFont';
     display: flex;
     flex-direction: column;
-    text-align: center;
     background-color: #FF66C4; 
 }
 h1 {
@@ -23,6 +22,9 @@ h2 {
     font-size: 3em;
     font-family: 'MyFont';
     margin-bottom: 0.7em;
+    text-align: center;
+}
+p {
     text-align: center;
 }
 ul {

@@ -3,7 +3,7 @@
     src: url('LibreBaskerville-Regular.ttf') format('truetype');
 }
 body {
-    font-size: 1em; 
+    font-size: 1.1em; 
     font-family: 'MyFont';
     display: flex;
     flex-direction: column;

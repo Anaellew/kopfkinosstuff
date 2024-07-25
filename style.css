@@ -7,6 +7,7 @@ body {
     font-family: 'MyFont';
     display: flex;
     flex-direction: column;
+    text-align: center;
     background-color: #FF66C4; 
 }
 h1 {

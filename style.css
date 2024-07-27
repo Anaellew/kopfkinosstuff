@@ -89,14 +89,14 @@ a {
         width: 70%;
         margin: 2em;
         padding-left: 1em;
-        padding-right: 2em;
+        padding-right: 1em;
     }
     h1 {
-        font-size: 3em;
+        font-size: 3.7em;
         text-align: center;
     }
     h2 {
-        font-size: 1em;
+        font-size: 1.5em;
         text-align: center;
     }
     .columns {

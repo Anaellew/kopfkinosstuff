@@ -18,7 +18,6 @@ h1 {
 .columns {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2em;
     align-items: center;
 }
 .column {
@@ -26,7 +25,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
     box-sizing: border-box;
 }
 img {

@@ -51,6 +51,12 @@ li {
     justify-content: flex-end;
     width: 100%; /* Pour s'assurer que la .container occupe toute la largeur */
 }
+.bis_container {
+    display: flex; 
+    justify-content: flex-end;
+    width: 100%; 
+    padding-right: 1em;
+}
 a {
     color: black;
     font-size: 1.5em;
@@ -97,6 +103,9 @@ a {
     text-align: center; /* Pour centrer le texte */
 }
 @media (max-width: 768px) {
+    body {
+        width: 80%;
+    }
     h1 {
         font-size: 4em;
         text-align: center;
@@ -113,13 +122,13 @@ a {
     .column {
         padding: 0;
         box-sizing: border-box; /* Pour inclure padding et border dans la largeur totale */
-        width: 100%; /* Pour s'assurer que les .column occupent toute la largeur */
+        width: 80%; /* Pour s'assurer que les .column occupent toute la largeur */
     }
     .left, .right {
         margin: 0;
         font-size: 1em;
         text-align: center; /* Pour centrer le texte */
-        width: 100%; /* Pour s'assurer que la .left et la .right occupent toute la largeur */
+        width: 80%; /* Pour s'assurer que la .left et la .right occupent toute la largeur */
     }
     .spacer {
         height: 12em;

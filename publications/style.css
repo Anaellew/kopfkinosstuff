@@ -28,6 +28,9 @@ h1 {
     padding: 1em;
     box-sizing: border-box;
 }
+img {
+    width: 100%;
+}
 .moyenspace {
     height: 3em;
 }

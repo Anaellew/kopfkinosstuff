@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MyFont';
-    src: url('LibreBaskerville-Regular.ttf') format('truetype');
+    src: url('font/DuctusMonoCalligraphic.ttf') format('truetype');
 }
 body {
     font-size: 1.1em; 
@@ -14,13 +14,13 @@ h1 {
     padding-top: 0.5em;
     font-family: 'MyFont', serif;
     font-size: 8em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     text-align: center;
 }
 h2 {
     padding: 0em;
     margin-top: 0;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'MyFont';
     margin-bottom: 0.7em;
     text-align: center;

@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Affichage PDF avec PDF.js</title>
-    <script src="../lib/jspdf/build/pdf.mjs"></script>
-    <script src="../lib/jspdf/build/pdf.worker.mjs"></script>
+    <title>Affichage PDF avec PDF.js (Module ES)</title>
     <style>
         .pdf-thumbnail {
             cursor: pointer;
@@ -19,29 +17,25 @@
 <body>
     <h1>Voir le PDF</h1>
     <canvas id="pdf-canvas" class="pdf-thumbnail"></canvas>
-    <script>
-        // Configuration du chemin du worker
-        pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.min.js';
+    <script type="module">
+        import * as pdfjsLib from './pdfjs/pdf.mjs';
+        pdfjsLib.GlobalWorkerOptions.workerSrc = './pdfjs/pdf.worker.mjs';
 
-        var url = 'truc.pdf'; // Remplacez par le chemin de votre PDF
+        const url = 'chemin/vers/votre-document.pdf'; // Remplacez par le chemin de votre PDF
 
-        // Chargement du document PDF
-        pdfjsLib.getDocument(url).promise.then(function(pdfDoc) {
-            // Récupération de la première page
-            pdfDoc.getPage(1).then(function(page) {
-                var viewport = page.getViewport({ scale: 1.5 });
-                var canvas = document.getElementById('pdf-canvas');
-                var context = canvas.getContext('2d');
+        pdfjsLib.getDocument(url).promise.then(pdfDoc => {
+            pdfDoc.getPage(1).then(page => {
+                const viewport = page.getViewport({ scale: 1.5 });
+                const canvas = document.getElementById('pdf-canvas');
+                const context = canvas.getContext('2d');
                 canvas.height = viewport.height;
                 canvas.width = viewport.width;
 
-                // Rendu de la première page dans le canvas
                 page.render({
                     canvasContext: context,
                     viewport: viewport
-                }).promise.then(function() {
-                    // Ajout d'un événement de clic pour ouvrir le PDF complet
-                    canvas.addEventListener('click', function() {
+                }).promise.then(() => {
+                    canvas.addEventListener('click', () => {
                         window.open(url, '_blank');
                     });
                 });

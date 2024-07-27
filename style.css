@@ -10,10 +10,9 @@ body {
     align-items: center;
     background-color: #FF66C4; 
     width: 100%; 
-    padding-left: 1em;
 }
 h1 {
-    padding-top: 1em;
+    padding-top: 0.5em;
     font-family: 'MyFont', serif;
     font-size: 8em;
     margin-bottom: 1em;
@@ -54,20 +53,20 @@ li {
     display: flex; 
     justify-content: flex-end;
     width: 100%; 
-    marin-right: 5em;
+    margin-right: 5em;
 }
 a {
     color: black;
     font-size: 1em;
 }
 .spacer {
-    height: 25em;
+    height: 22em;
 }
 .moyenspace {
-    height: 5em;
+    height: 4em;
 }
 .petitspace {
-    height: 3em;
+    height: 2em;
 }
 .columns {
     display: grid;
@@ -97,6 +96,8 @@ a {
     body {
         width: 80%;
         margin: 2em;
+        padding-left: 1em;
+        paading-right: 2em;
     }
     h1 {
         font-size: 4em;

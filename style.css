@@ -86,7 +86,7 @@ a {
 }
 @media (max-width: 768px) {
     body {
-        width: 70%;
+        width: 75%;
         margin: 2em;
         padding-left: 1em;
         padding-right: 1em;
@@ -94,10 +94,14 @@ a {
     h1 {
         font-size: 3.7em;
         text-align: center;
+        padding-left: 1em;
+        padding-right:1em;
     }
     h2 {
         font-size: 1.5em;
         text-align: center;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
     .columns {
         grid-template-columns: 1fr;
@@ -106,7 +110,7 @@ a {
     .column {
         padding: 0;
         box-sizing: border-box; 
-        width: 70%; 
+        width: 75%; 
     }
     .left, .right {
         margin: 0;
@@ -128,6 +132,9 @@ a {
     }
     footer {
         padding : 0em;
+    }
+    .bis_container {
+        margin-right: 2em;
     }
 }
 

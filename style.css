@@ -88,7 +88,7 @@ a {
     body {
         width: 75%;
         margin: 2em;
-        padding-left: 1em;
+        padding-left: 0.7em;
         padding-right: 1em;
     }
     h1 {
@@ -98,10 +98,10 @@ a {
         padding-right:1em;
     }
     h2 {
-        font-size: 1.5em;
+        font-size: 1.6em;
         text-align: center;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
     .columns {
         grid-template-columns: 1fr;

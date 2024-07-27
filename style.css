@@ -104,7 +104,8 @@ a {
 }
 @media (max-width: 768px) {
     body {
-        width: 80%;
+        width: 100%;
+        margin: auto;
     }
     h1 {
         font-size: 4em;
@@ -118,17 +119,18 @@ a {
         grid-template-columns: 1fr;
         justify-items: center; /* Pour centrer les colonnes */
         padding: 0; /* Enlever les padding par défaut */
+        margin: auto;
     }
     .column {
         padding: 0;
         box-sizing: border-box; /* Pour inclure padding et border dans la largeur totale */
-        width: 80%; /* Pour s'assurer que les .column occupent toute la largeur */
+        width: 100%; /* Pour s'assurer que les .column occupent toute la largeur */
     }
     .left, .right {
         margin: 0;
         font-size: 1em;
         text-align: center; /* Pour centrer le texte */
-        width: 80%; /* Pour s'assurer que la .left et la .right occupent toute la largeur */
+        width: 100%; /* Pour s'assurer que la .left et la .right occupent toute la largeur */
     }
     .spacer {
         height: 12em;

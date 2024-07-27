@@ -17,8 +17,9 @@ h1 {
 }
 .columns {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2em;
+    align-items: center;
 }
 .column {
     display: flex;
@@ -29,7 +30,7 @@ h1 {
     box-sizing: border-box;
 }
 img {
-    width: 100%;
+    width: 60%;
 }
 .moyenspace {
     height: 3em;

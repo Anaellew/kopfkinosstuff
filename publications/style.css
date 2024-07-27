@@ -17,7 +17,7 @@ h1 {
 }
 .columns {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr, 1fr, 1fr;
     gap: 2em;
 }
 .column {
@@ -33,6 +33,9 @@ img {
 }
 .moyenspace {
     height: 3em;
+}
+.petitspace {
+    height: 2em;
 }
 @media (max-width: 768px) {
     h1 {

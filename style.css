@@ -27,8 +27,8 @@ h2 {
 }
 p {
     text-align: center;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
 }
 ul {
     list-style: none;
@@ -57,7 +57,7 @@ a {
     height: 22em;
 }
 .moyenspace {
-    height: 4.5em;
+    height: 5em;
 }
 .petitspace {
     height: 1em;

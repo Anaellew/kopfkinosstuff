@@ -27,6 +27,8 @@ h2 {
 }
 p {
     text-align: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 ul {
     list-style: none;

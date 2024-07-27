@@ -53,11 +53,11 @@ li {
     display: flex; 
     justify-content: flex-end;
     width: 100%; 
-    padding-right: 1em;
+    marin-right: 5em;
 }
 a {
     color: black;
-    font-size: 0.5em;
+    font-size: 1em;
 }
 .spacer {
     height: 22em;
@@ -94,8 +94,8 @@ a {
 }
 @media (max-width: 768px) {
     body {
-        width: 100%;
-        padding: 3em;
+        width: 80%;
+        margin: 2em;
     }
     h1 {
         font-size: 4em;
@@ -108,18 +108,16 @@ a {
     .columns {
         grid-template-columns: 1fr;
         justify-items: center;
-        margin: auto;
     }
     .column {
         padding: 0;
         box-sizing: border-box; 
-        width: 100%; 
+        width: 80%; 
     }
     .left, .right {
         margin: 0;
         font-size: 1em;
         text-align: center; 
-        width: 100%; 
     }
     .spacer {
         height: 12em;

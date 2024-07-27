@@ -93,7 +93,6 @@ a {
     }
     .left, .right{
         margin: 0;
-        padding: 1em;
         font-size: 1em;
     }
     .spacer {

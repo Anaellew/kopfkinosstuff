@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #FF66C4; 
-    width: 100%; 
 }
 h1 {
     padding-top: 0.5em;
@@ -17,7 +16,6 @@ h1 {
     font-size: 8em;
     margin-bottom: 1em;
     text-align: center;
-    width: 100%;
 }
 h2 {
     padding: 0em;
@@ -26,11 +24,9 @@ h2 {
     font-family: 'MyFont';
     margin-bottom: 0.7em;
     text-align: center;
-    width: 100%;
 }
 p {
     text-align: center;
-    width: 100%; 
 }
 ul {
     list-style: none;
@@ -38,7 +34,6 @@ ul {
     margin: 0; 
     display: flex; 
     justify-content: center; 
-    width: 100%; 
 }
 li {
     margin-right: 5em; 
@@ -47,12 +42,10 @@ li {
 .container {
     display: flex; 
     justify-content: flex-end;
-    width: 100%; 
 }
 .bis_container {
     display: flex; 
     justify-content: flex-end;
-    width: 100%; 
     margin-right: 5em;
 }
 a {
@@ -71,7 +64,6 @@ a {
 .columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%; 
     box-sizing: border-box; 
     padding-left: 2em; 
 }
@@ -100,11 +92,11 @@ a {
         padding-right: 2em;
     }
     h1 {
-        font-size: 4em;
+        font-size: 3em;
         text-align: center;
     }
     h2 {
-        font-size: 1.7em;
+        font-size: 1em;
         text-align: center;
     }
     .columns {
@@ -122,16 +114,16 @@ a {
         text-align: center; 
     }
     .spacer {
-        height: 12em;
+        height: 15em;
     }
     .moyenspace {
         height: 3em;
     }
     a {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     img {
-        width: 90%;
+        width: 95%;
         height: auto;
     }
     footer {

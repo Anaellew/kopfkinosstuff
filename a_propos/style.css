@@ -55,6 +55,7 @@ footer {
 }
 @media (max-width: 768px) {
     h1 {
+        text-align: center;
         font-size: 4em;
     }
     .columns {
@@ -70,7 +71,7 @@ footer {
         padding: 1em;
     }
     .petitspace {
-        height: 0.4em;
+        height: 2em;
     }
     img {
         width: 100%;

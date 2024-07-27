@@ -18,8 +18,7 @@ h1 {
 .columns {
     display: grid;
     grid-template-columns: repeat(3, 400px);
-    gap: 0em;
-    padding-left: 12em;
+    gap: 2em;
 }
 .column {
     display: flex;

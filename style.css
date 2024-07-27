@@ -58,7 +58,7 @@ a {
     height: 4em;
 }
 .petitspace {
-    height: 2em;
+    height: 1em;
 }
 .columns {
     display: grid;
@@ -122,6 +122,9 @@ a {
     }
     .moyenspace {
         height: 2em;
+    }
+    .petitspace {
+        height: O.5em;
     }
     a {
         font-size: 0.8em;

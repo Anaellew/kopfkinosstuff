@@ -91,6 +91,10 @@ a {
     .columns {
         grid-template-columns: 1fr;
     }
+    .column {
+        padding: 0em;
+        box-sizing: border-box;
+    }
     .left, .right{
         margin: 0;
         font-size: 1em;

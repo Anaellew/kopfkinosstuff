@@ -104,6 +104,8 @@ a {
     }
     p {
         bottom-margin: 0.5em;
+        margin-left: 2em;
+        margin-right: 2em;
     }
     .columns {
         grid-template-columns: 1fr;
@@ -111,7 +113,6 @@ a {
         display: block;
     }
     .column {
-        padding: 0;
         box-sizing: border-box; 
         width: 100%;
         display: block;

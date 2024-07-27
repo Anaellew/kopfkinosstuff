@@ -103,6 +103,9 @@ a {
         padding-left: 1em;
         padding-right: 1em;
     }
+    p {
+        bottom-margin: 0.5em;
+    }
     .columns {
         grid-template-columns: 1fr;
         justify-items: center;

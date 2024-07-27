@@ -77,7 +77,7 @@ a {
 .left, .right {
     margin: 5em; 
     font-family: 'MyFont';
-    font-size: 1.2em;
+    font-size: 1em;
     width: 100%; 
     text-align: center; 
 }

@@ -7,7 +7,11 @@ body {
     font-family: 'MyFont';
     display: flex;
     flex-direction: column;
+    align-items: center; /* Pour centrer les éléments */
     background-color: #FF66C4; 
+    margin: 0; /* Pour s'assurer qu'il n'y a pas de marge sur le body */
+    padding: 0; /* Pour s'assurer qu'il n'y a pas de padding sur le body */
+    width: 100%; /* Pour s'assurer que le body occupe toute la largeur */
 }
 h1 {
     padding-top: 0.5em;
@@ -15,6 +19,7 @@ h1 {
     font-size: 8em;
     margin-bottom: 1em;
     text-align: center;
+    width: 100%; /* Pour s'assurer que le h1 occupe toute la largeur */
 }
 h2 {
     padding: 0em;
@@ -23,23 +28,28 @@ h2 {
     font-family: 'MyFont';
     margin-bottom: 0.7em;
     text-align: center;
+    width: 100%; /* Pour s'assurer que le h2 occupe toute la largeur */
 }
 p {
     text-align: center;
+    width: 100%; /* Pour s'assurer que le p occupe toute la largeur */
 }
 ul {
     list-style: none;
     padding: 0; 
     margin: 0; 
     display: flex; 
+    justify-content: center; /* Pour centrer les éléments dans ul */
+    width: 100%; /* Pour s'assurer que le ul occupe toute la largeur */
 }
 li {
     margin-right: 5em; 
     margin-left: 5em;
 }
-.container{
+.container {
     display: flex; 
     justify-content: flex-end;
+    width: 100%; /* Pour s'assurer que la .container occupe toute la largeur */
 }
 a {
     color: black;
@@ -49,7 +59,7 @@ a {
     height: 22em;
 }
 .moyenspace {
-    height: 5em;
+    height: 4em;
 }
 .petitspace {
     height: 2em;
@@ -57,27 +67,34 @@ a {
 .columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%; /* Pour s'assurer que les .columns occupent toute la largeur */
+    box-sizing: border-box; /* Pour inclure padding et border dans la largeur totale */
+    padding: 0; /* Pour enlever les padding par défaut */
 }
 .column {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box; /* Pour inclure padding et border dans la largeur totale */
     padding: 1em;
-    box-sizing: border-box;
+    width: 100%; /* Pour s'assurer que les .column occupent toute la largeur */
 }
 .left {
-    margin-right: 2em;
-    margin-left: 2em;
+    margin: 0; /* Enlever les marges */
     font-family: 'MyFont';
     font-size: 1.5em;
+    width: 100%; /* Pour s'assurer que la .left occupe toute la largeur */
+    text-align: center; /* Pour centrer le texte */
 }
-.left h2{
+.left h2 {
     font-size: 2em;
 }
 .right {
-   font-family: 'MyFont';
-    margin-left: 0;
+    font-family: 'MyFont';
+    margin: 0; /* Enlever les marges */
+    width: 100%; /* Pour s'assurer que la .right occupe toute la largeur */
+    text-align: center; /* Pour centrer le texte */
 }
 @media (max-width: 768px) {
     h1 {
@@ -90,18 +107,19 @@ a {
     }
     .columns {
         grid-template-columns: 1fr;
-        justify-items: center;
+        justify-items: center; /* Pour centrer les colonnes */
+        padding: 0; /* Enlever les padding par défaut */
     }
     .column {
-        padding: 0em;
-        box-sizing: border-box;
-        width: 100%;
+        padding: 0;
+        box-sizing: border-box; /* Pour inclure padding et border dans la largeur totale */
+        width: 100%; /* Pour s'assurer que les .column occupent toute la largeur */
     }
-    .left, .right{
+    .left, .right {
         margin: 0;
         font-size: 1em;
-        text-align: center; 
-        width: 100%;
+        text-align: center; /* Pour centrer le texte */
+        width: 100%; /* Pour s'assurer que la .left et la .right occupent toute la largeur */
     }
     .spacer {
         height: 12em;
@@ -115,6 +133,9 @@ a {
     img {
         width: 100%;
         height: auto;
+    }
+    footer {
+        padding : 0em;
     }
 }
 

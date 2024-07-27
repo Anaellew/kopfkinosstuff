@@ -90,14 +90,18 @@ a {
     }
     .columns {
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     .column {
         padding: 0em;
         box-sizing: border-box;
+        width: 100%;
     }
     .left, .right{
         margin: 0;
         font-size: 1em;
+        text-align: center; 
+        width: 100%;
     }
     .spacer {
         height: 12em;

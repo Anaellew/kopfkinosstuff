@@ -87,7 +87,7 @@ a {
 }
 @media (max-width: 768px) {
     body {
-        width: 75%;
+        width: 100%;
         margin: 2em;
         padding-left: 0.7em;
         padding-right: 1em;
@@ -112,7 +112,7 @@ a {
     .column {
         padding: 0;
         box-sizing: border-box; 
-        width: 75%;
+        width: 100%;
         display: block;
     }
     .left, .right {

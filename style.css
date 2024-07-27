@@ -49,7 +49,7 @@ a {
     height: 22em;
 }
 .moyenspace {
-    height: 7em;
+    height: 6em;
 }
 .petitspace {
     height: 2em;
@@ -82,9 +82,11 @@ a {
 @media (max-width: 768px) {
     h1 {
         font-size: 4em;
+        text-align: center;
     }
     h2 {
         font-size: 1.7em;
+        text-align: center;
     }
     .columns {
         grid-template-columns: 1fr;

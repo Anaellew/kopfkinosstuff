@@ -114,7 +114,6 @@ a {
         grid-template-columns: 0.8fr;
         justify-items: center;
         justify-content: center;
-        border: 1px solid red;
         display: block;
     }
 

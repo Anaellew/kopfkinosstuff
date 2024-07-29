@@ -112,7 +112,7 @@ a {
     }
     .column {
         box-sizing: border-box; 
-        width: 75%;
+        width: 100%;
         display: block;
         margin-left: 5em;
     }
@@ -136,14 +136,14 @@ a {
         text-align: center;
     }
     img {
-        width: 75%;
+        width: 100%;
         height: auto;
         align-items: center;
         display: block;
     }
     .bis_container {
-        text-align: center;
-        align-items: center;
+        text-align: left;
+        align-items: left;
     }
 }
 

@@ -88,59 +88,74 @@ a {
         width: 100%;
         margin: 0 auto;
         align-items: center;
-        overflow-x: hidden;
     }
+
     h1 {
         font-size: 3.7em;
         text-align: center;
         padding-top: 2em;
         padding-left: 1.5em;
-        padding-right:1.5em;
+        padding-right: 1.5em;
     }
+
     h2 {
         font-size: 1.2em;
         text-align: center;
         padding-left: 1em;
         padding-right: 1em;
     }
+
     p {
         bottom-margin: 0.5em;
+        padding-left: 1em; /* Ensure text is not too close to the edge */
+        padding-right: 1em; /* Ensure text is not too close to the edge */
     }
+
     .columns {
         grid-template-columns: 0.8fr;
         justify-items: center;
         display: block;
-        width: 95%;
     }
+
     .column {
         box-sizing: border-box; 
         width: 95%;
         display: block;
     }
+
     .left, .right {
         font-size: 0.7em;
         text-align: center; 
         margin-bottom: 1em;
         display: block;
     }
+
     .spacer {
         height: 15em;
     }
+
     .moyenspace {
         height: 6em;
     }
+
     .petitspace {
-        height: O.5em;
+        height: 0.5em;
     }
+
     a {
         font-size: 0.9em;
         text-align: center;
     }
+
     img {
         width: 97%;
         height: auto;
         align-items: center;
         display: block;
+    }
+
+    .bis_container {
+        justify-content: center; /* Centering on small screens */
     }
 }
 

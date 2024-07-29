@@ -88,6 +88,7 @@ a {
         width: 100%;
         margin: 0 auto;
         align-items: center;
+        overflow-x: hidden;
     }
     h1 {
         font-size: 3.7em;

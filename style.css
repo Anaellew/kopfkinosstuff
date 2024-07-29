@@ -114,7 +114,6 @@ a {
         box-sizing: border-box; 
         width: 100%;
         display: block;
-        margin-left: 5em;
     }
     .left, .right {
         font-size: 0.7em;

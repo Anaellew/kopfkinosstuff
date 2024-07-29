@@ -29,6 +29,7 @@ p {
     text-align: center;
     padding-left: 2.5em;
     padding-right: 2.5em;
+    margin: 0;
 }
 ul {
     list-style: none;

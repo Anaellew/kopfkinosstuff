@@ -112,7 +112,7 @@ a {
     }
     .column {
         box-sizing: border-box; 
-        width: 90%;
+        width: 95%;
         display: block;
     }
     .left, .right {
@@ -135,7 +135,7 @@ a {
         text-align: center;
     }
     img {
-        width: 90%;
+        width: 97%;
         height: auto;
         align-items: center;
         display: block;

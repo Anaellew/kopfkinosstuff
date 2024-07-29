@@ -109,6 +109,7 @@ a {
         grid-template-columns: 0.8fr;
         justify-items: center;
         display: block;
+        width: 95%;
     }
     .column {
         box-sizing: border-box; 

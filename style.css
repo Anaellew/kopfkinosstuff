@@ -106,14 +106,13 @@ a {
     }
 
     p {
-        bottom-margin: 0.5em;
-        padding-left: 1em; /* Ensure text is not too close to the edge */
-        padding-right: 1em; /* Ensure text is not too close to the edge */
+        margin-bottom: 0.5em;
     }
 
     .columns {
         grid-template-columns: 0.8fr;
         justify-items: center;
+        border: 1px solid red;
         display: block;
     }
 

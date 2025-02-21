@@ -12,6 +12,28 @@
         <h2>Webzine pour tous·tes</h2>
         <h2>les enragé·es</h2>
         <div class="spacer"></div>
+
+        <h1>Bienvenue sur notre site !</h1>
+        <p>Nombre de visites :</p>
+        <div class="counter" id="visitCount">0</div>
+
+        <script>
+            // Vérifier si un compteur existe déjà dans le localStorage
+            let visitCount = localStorage.getItem("visitCount");
+
+            if (visitCount === null) {
+                visitCount = 1; // Première visite
+            } else {
+                visitCount = parseInt(visitCount) + 1; // Augmenter le compteur
+            }
+
+            // Mettre à jour le stockage local
+            localStorage.setItem("visitCount", visitCount);
+
+            // Afficher le nombre de visites
+            document.getElementById("visitCount").textContent = visitCount;
+        </script>
+
         <div class="columns">
             <div class="column left">
                 <h2>Molard Club</h2>
